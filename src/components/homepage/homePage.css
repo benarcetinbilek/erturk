@@ -1,0 +1,29 @@
+.homepageContainer {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url("../../../public/bg.jpg");
+  background-size: cover; */
+  background-color: aliceblue;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepageCards {
+  /* border: 2px red solid; */
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.homepageText {
+  /* border: 2px purple solid; */
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}

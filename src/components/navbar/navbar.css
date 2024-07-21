@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  /* flex: 0.5; */
+}
+
+.navbarLogo {
+  flex: 1;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+}
+
+.navbarLoginSignup {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
